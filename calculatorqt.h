@@ -17,5 +17,11 @@ public:
 
 private:
     Ui::CalculatorQt *ui;
+
+private slots:
+    void NumPressed();
+    void MathButtonPressed();
+    void EqualButtonPressed();
+    void ChangeNumberSign();
 };
 #endif // CALCULATORQT_H
